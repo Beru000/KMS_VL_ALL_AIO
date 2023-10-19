@@ -8,7 +8,7 @@
 set _Debug=0
 
 :: change to 0 to turn OFF Windows or Office activation processing via the script
-set ActWindows=1
+set ActWindows=0
 set ActOffice=1
 
 :: change to 0 to turn OFF auto conversion for Office C2R Retail to Volume
@@ -42,7 +42,7 @@ set Logger=0
 
 :: change KMS auto renewal schedule, range in minutes: from 15 to 43200
 :: example: 10080 = weekly, 1440 = daily, 43200 = monthly
-set KMS_RenewalInterval=10080
+set KMS_RenewalInterval=43200
 
 :: change KMS reattempt schedule for failed activation or unactivated, range in minutes: from 15 to 43200
 set KMS_ActivationInterval=120
